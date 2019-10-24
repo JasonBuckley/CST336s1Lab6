@@ -16,10 +16,10 @@ app.get("/venus", function(req, res){
    res.render("venus.html"); 
 });
 
-app.listen("8081", "127.0.0.1", function(){
-    console.log("Express Server is Running...");
-});
-
-// app.listen(process.env.PORT, process.env.IP, function(){
+// app.listen("8081", "127.0.0.1", function(){
 //     console.log("Express Server is Running...");
 // });
+
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("Express Server is Running...");
+});
