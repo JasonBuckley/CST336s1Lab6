@@ -1,4 +1,12 @@
 body{
-    background-color: #CBE2F6;
+    background-color: #CBE2F6 !important;
     text-align: center;
 }
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    border: 2px black solid;
+    color: white;
+}
+
