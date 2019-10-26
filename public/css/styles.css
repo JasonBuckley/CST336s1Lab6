@@ -10,3 +10,12 @@ a{
     color: white;
 }
 
+p{
+    padding-left:25%;
+    padding-right: 25%;
+}
+
+img{
+    border-radius: 170px;
+}
+
